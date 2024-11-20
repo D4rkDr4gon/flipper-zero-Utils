@@ -1,0 +1,6 @@
+REM Apagar el Equipo (Linux)
+DELAY 500
+GUI r
+DELAY 500
+STRING sudo shutdown now
+ENTER

